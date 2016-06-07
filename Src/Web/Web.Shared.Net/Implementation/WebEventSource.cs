@@ -299,9 +299,9 @@
 
         [Event(
             32,
-            Message = "FlagCheckFailure {0}.",
+            Message = "FirstRequestCheckFailure {0}.",
             Level = EventLevel.Error)]
-        public void FlagCheckFailure(string excMessage, string appDomainName = "Incorrect")
+        public void FirstRequestCheckFailure(string excMessage, string appDomainName = "Incorrect")
         {
             this.WriteEvent(
                 32,

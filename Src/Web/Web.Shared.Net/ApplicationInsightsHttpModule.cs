@@ -107,7 +107,7 @@
             }
             catch (Exception exc)
             {
-                WebEventSource.Log.FlagCheckFailure(exc.ToInvariantString());
+                WebEventSource.Log.FirstRequestCheckFailure(exc.ToInvariantString());
             }
 
             return firstRequest;
